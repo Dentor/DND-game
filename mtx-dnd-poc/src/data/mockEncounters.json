@@ -1,0 +1,6 @@
+[
+  {"id": "enc_monster", "type": "Monster", "title": "Ambush!", "desc": "A creature blocks your path."},
+  {"id": "enc_merchant", "type": "Merchant", "title": "Traveling Trader", "desc": "A hooded figure offers wares."},
+  {"id": "enc_trap", "type": "Trap", "title": "Hidden Tripwire", "desc": "Watch your step!"},
+  {"id": "enc_camp", "type": "Camp", "title": "Safe Haven", "desc": "A moment of respite."}
+]

@@ -1,0 +1,47 @@
+{
+  "name": "Valeros",
+  "class": "Fighter",
+  "level": 1,
+  "baseArmorClass": 10,
+  "armorClass": 14,
+  "xp": {
+    "current": 0,
+    "nextLevel": 300
+  },
+  "health": {
+    "current": 12,
+    "max": 12
+  },
+  "stats": {
+    "strength": 15,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 8
+  },
+  "currency": {
+    "gold": 0
+  },
+  "learnedSpells": ["spell_spark", "skill_slash", "spell_heal"],
+  "spellCharges": {
+    "spell_spark": 3,
+    "skill_slash": 4,
+    "spell_heal": 2
+  },
+  "equipment": {
+    "head": null,
+    "neck": null,
+    "back": null,
+    "chest": { "name": "Cloth Shirt", "type": "Armor", "slotType": "chest", "acBonus": 1, "value": 1 },
+    "hands": null,
+    "belt": null,
+    "legs": { "name": "Cloth Pants", "type": "Armor", "slotType": "legs", "acBonus": 0, "value": 1 },
+    "feet": { "name": "Simple Boots", "type": "Armor", "slotType": "feet", "acBonus": 1, "value": 5 },
+    "mainHand": { "name": "Wooden Sword", "type": "Weapon", "slotType": "mainHand", "range": 1, "damageDice": 6, "value": 5 },
+    "offHand": null,
+    "ring1": null,
+    "ring2": null
+  },
+  "inventory": []
+}

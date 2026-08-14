@@ -1,0 +1,56 @@
+[
+  {
+    "id": "enc_t1_pack",
+    "tier": 1,
+    "type": "Monster",
+    "title": "Tier 1 Wilderness Patrol",
+    "description": "A random assortment of creatures patrols this sector of the grid.",
+    "challengeStat": "strength",
+    "targetDC": 12,
+    "minEnemies": 1,
+    "maxEnemies": 3,
+    "success": { 
+      "xp": 60, "gold": 10,
+      "lootTable": [
+        { "name": "Scrap Material", "type": "Material", "value": 5, "dropChance": 100 }
+      ]
+    },
+    "failure": { "hpLoss": 3 }
+  },
+  {
+    "id": "enc_t2_pack",
+    "tier": 2,
+    "type": "Monster",
+    "title": "Tier 2 Hostile Warband",
+    "description": "A dangerous mixed squad of seasoned fighters and beasts blocks your route.",
+    "challengeStat": "dexterity",
+    "targetDC": 14,
+    "minEnemies": 2,
+    "maxEnemies": 4,
+    "success": { 
+      "xp": 180, "gold": 50,
+      "lootTable": [
+        { "name": "Iron Scrap", "type": "Material", "value": 15, "dropChance": 80 }
+      ]
+    },
+    "failure": { "hpLoss": 6 }
+  },
+  {
+    "id": "enc_t3_pack",
+    "tier": 3,
+    "type": "Monster",
+    "title": "Tier 3 Apex Threat",
+    "description": "Elite corrupted entities and warlords converge on your location.",
+    "challengeStat": "strength",
+    "targetDC": 16,
+    "minEnemies": 2,
+    "maxEnemies": 3,
+    "success": { 
+      "xp": 450, "gold": 200,
+      "lootTable": [
+        { "name": "Core Fragment", "type": "Material", "value": 100, "dropChance": 100 }
+      ]
+    },
+    "failure": { "hpLoss": 12 }
+  }
+]

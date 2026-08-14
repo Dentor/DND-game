@@ -1,0 +1,648 @@
+[
+  {
+    "id": "gear_dagger_rust",
+    "name": "Rusted Dagger",
+    "tier": 1,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 4,
+    "value": 10
+  },
+  {
+    "id": "gear_sword_short",
+    "name": "Iron Shortsword",
+    "tier": 1,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 6,
+    "value": 20
+  },
+  {
+    "id": "gear_mace_wood",
+    "name": "Wooden Club",
+    "tier": 1,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 6,
+    "value": 15
+  },
+  {
+    "id": "gear_bow_short",
+    "name": "Hunting Shortbow",
+    "tier": 1,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 4,
+    "damageDice": 6,
+    "value": 25
+  },
+  {
+    "id": "gear_wand_novice",
+    "name": "Novice Wand",
+    "tier": 1,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 4,
+    "damageDice": 4,
+    "value": 30
+  },
+  {
+    "id": "gear_helm_leather",
+    "name": "Leather Cap",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "head",
+    "acBonus": 1,
+    "value": 15
+  },
+  {
+    "id": "gear_helm_iron",
+    "name": "Iron Skullcap",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "head",
+    "acBonus": 2,
+    "value": 35
+  },
+  {
+    "id": "gear_chest_rags",
+    "name": "Worn Tunic",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 1,
+    "value": 10
+  },
+  {
+    "id": "gear_chest_leather",
+    "name": "Studded Leather Armor",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 2,
+    "value": 40
+  },
+  {
+    "id": "gear_chest_chain",
+    "name": "Rusty Chainmail",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 3,
+    "value": 60
+  },
+  {
+    "id": "gear_legs_cloth",
+    "name": "Cloth Trousers",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "legs",
+    "acBonus": 1,
+    "value": 10
+  },
+  {
+    "id": "gear_legs_leather",
+    "name": "Leather Pants",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "legs",
+    "acBonus": 2,
+    "value": 30
+  },
+  {
+    "id": "gear_feet_shoes",
+    "name": "Walking Shoes",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "feet",
+    "acBonus": 1,
+    "value": 10
+  },
+  {
+    "id": "gear_feet_boots",
+    "name": "Leather Boots",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "feet",
+    "acBonus": 1,
+    "value": 20
+  },
+  {
+    "id": "gear_hands_wraps",
+    "name": "Cloth Handwraps",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "hands",
+    "acBonus": 1,
+    "value": 10
+  },
+  {
+    "id": "gear_shield_buckler",
+    "name": "Wooden Buckler",
+    "tier": 1,
+    "type": "Armor",
+    "slotType": "offHand",
+    "acBonus": 1,
+    "value": 25
+  },
+  {
+    "id": "gear_ring_copper",
+    "name": "Copper Ring",
+    "tier": 1,
+    "type": "Accessory",
+    "slotType": "ring1",
+    "value": 20
+  },
+  {
+    "id": "gear_neck_string",
+    "name": "Shell Necklace",
+    "tier": 1,
+    "type": "Accessory",
+    "slotType": "neck",
+    "value": 15
+  },
+  {
+    "id": "gear_back_cloak",
+    "name": "Frayed Cloak",
+    "tier": 1,
+    "type": "Accessory",
+    "slotType": "back",
+    "acBonus": 1,
+    "value": 20
+  },
+  {
+    "id": "gear_sword_long",
+    "name": "Steel Longsword",
+    "tier": 2,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 8,
+    "value": 50
+  },
+  {
+    "id": "gear_axe_battle",
+    "name": "Iron Battleaxe",
+    "tier": 2,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 10,
+    "value": 60
+  },
+  {
+    "id": "gear_spear_foot",
+    "name": "Soldier's Spear",
+    "tier": 2,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 2,
+    "damageDice": 8,
+    "value": 55
+  },
+  {
+    "id": "gear_crossbow_light",
+    "name": "Light Crossbow",
+    "tier": 2,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 5,
+    "damageDice": 8,
+    "value": 70
+  },
+  {
+    "id": "gear_helm_steel",
+    "name": "Steel Bascinet",
+    "tier": 2,
+    "type": "Armor",
+    "slotType": "head",
+    "acBonus": 2,
+    "value": 65
+  },
+  {
+    "id": "gear_chest_scale",
+    "name": "Scale Mail",
+    "tier": 2,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 4,
+    "value": 120
+  },
+  {
+    "id": "gear_legs_scale",
+    "name": "Scale Greaves",
+    "tier": 2,
+    "type": "Armor",
+    "slotType": "legs",
+    "acBonus": 3,
+    "value": 90
+  },
+  {
+    "id": "gear_feet_iron",
+    "name": "Iron Greaves",
+    "tier": 2,
+    "type": "Armor",
+    "slotType": "feet",
+    "acBonus": 2,
+    "value": 50
+  },
+  {
+    "id": "gear_hands_iron",
+    "name": "Iron Gauntlets",
+    "tier": 2,
+    "type": "Armor",
+    "slotType": "hands",
+    "acBonus": 2,
+    "value": 50
+  },
+  {
+    "id": "gear_shield_iron",
+    "name": "Iron Heater Shield",
+    "tier": 2,
+    "type": "Armor",
+    "slotType": "offHand",
+    "acBonus": 2,
+    "value": 80
+  },
+  {
+    "id": "gear_belt_leather",
+    "name": "Sturdy Leather Belt",
+    "tier": 2,
+    "type": "Accessory",
+    "slotType": "belt",
+    "value": 35
+  },
+  {
+    "id": "gear_ring_silver",
+    "name": "Silver Ring",
+    "tier": 2,
+    "type": "Accessory",
+    "slotType": "ring1",
+    "value": 60
+  },
+  {
+    "id": "gear_neck_silver",
+    "name": "Silver Pendant",
+    "tier": 2,
+    "type": "Accessory",
+    "slotType": "neck",
+    "value": 70
+  },
+  {
+    "id": "gear_back_traveler",
+    "name": "Traveler's Cloak",
+    "tier": 2,
+    "type": "Accessory",
+    "slotType": "back",
+    "acBonus": 1,
+    "value": 50
+  },
+  {
+    "id": "gear_sword_broad",
+    "name": "Knight's Broadsword",
+    "tier": 3,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 10,
+    "value": 140
+  },
+  {
+    "id": "gear_hammer_war",
+    "name": "Mundane Warhammer",
+    "tier": 3,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 12,
+    "value": 160
+  },
+  {
+    "id": "gear_bow_composite",
+    "name": "Elven Composite Bow",
+    "tier": 3,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 5,
+    "damageDice": 10,
+    "value": 180
+  },
+  {
+    "id": "gear_staff_mage",
+    "name": "Arcane Battlestaff",
+    "tier": 3,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 2,
+    "damageDice": 8,
+    "value": 150
+  },
+  {
+    "id": "gear_helm_knight",
+    "name": "Knight's Visor",
+    "tier": 3,
+    "type": "Armor",
+    "slotType": "head",
+    "acBonus": 3,
+    "value": 130
+  },
+  {
+    "id": "gear_chest_plate",
+    "name": "Gleaming Plate Cuirass",
+    "tier": 3,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 6,
+    "value": 280
+  },
+  {
+    "id": "gear_legs_plate",
+    "name": "Plate Cuisses",
+    "tier": 3,
+    "type": "Armor",
+    "slotType": "legs",
+    "acBonus": 4,
+    "value": 200
+  },
+  {
+    "id": "gear_feet_steel",
+    "name": "Steel Sabatons",
+    "tier": 3,
+    "type": "Armor",
+    "slotType": "feet",
+    "acBonus": 2,
+    "value": 110
+  },
+  {
+    "id": "gear_hands_plate",
+    "name": "Plate Gauntlets",
+    "tier": 3,
+    "type": "Armor",
+    "slotType": "hands",
+    "acBonus": 2,
+    "value": 110
+  },
+  {
+    "id": "gear_shield_tower",
+    "name": "Steel Tower Shield",
+    "tier": 3,
+    "type": "Armor",
+    "slotType": "offHand",
+    "acBonus": 3,
+    "value": 220
+  },
+  {
+    "id": "gear_ring_gold",
+    "name": "Gold Signet Ring",
+    "tier": 3,
+    "type": "Accessory",
+    "slotType": "ring1",
+    "value": 150
+  },
+  {
+    "id": "gear_neck_ruby",
+    "name": "Ruby Amulet",
+    "tier": 3,
+    "type": "Accessory",
+    "slotType": "neck",
+    "value": 180
+  },
+  {
+    "id": "gear_back_velvet",
+    "name": "Velvet Cloak",
+    "tier": 3,
+    "type": "Accessory",
+    "slotType": "back",
+    "acBonus": 2,
+    "value": 140
+  },
+  {
+    "id": "gear_belt_studded",
+    "name": "Reinforced War Belt",
+    "tier": 3,
+    "type": "Accessory",
+    "slotType": "belt",
+    "value": 90
+  },
+  {
+    "id": "gear_sword_great",
+    "name": "Executioner's Greatsword",
+    "tier": 4,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 14,
+    "value": 350
+  },
+  {
+    "id": "gear_halberd_master",
+    "name": "Masterwork Halberd",
+    "tier": 4,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 2,
+    "damageDice": 12,
+    "value": 320
+  },
+  {
+    "id": "gear_crossbow_heavy",
+    "name": "Arbalest Heavy Crossbow",
+    "tier": 4,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 6,
+    "damageDice": 12,
+    "value": 360
+  },
+  {
+    "id": "gear_helm_mithril",
+    "name": "Mithril Crown-Helm",
+    "tier": 4,
+    "type": "Armor",
+    "slotType": "head",
+    "acBonus": 4,
+    "value": 300
+  },
+  {
+    "id": "gear_chest_mithril",
+    "name": "Mithril Breastplate",
+    "tier": 4,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 7,
+    "value": 550
+  },
+  {
+    "id": "gear_legs_mithril",
+    "name": "Mithril Leggings",
+    "tier": 4,
+    "type": "Armor",
+    "slotType": "legs",
+    "acBonus": 5,
+    "value": 400
+  },
+  {
+    "id": "gear_feet_mithril",
+    "name": "Mithril Boots",
+    "tier": 4,
+    "type": "Armor",
+    "slotType": "feet",
+    "acBonus": 3,
+    "value": 250
+  },
+  {
+    "id": "gear_hands_mithril",
+    "name": "Mithril Gauntlets",
+    "tier": 4,
+    "type": "Armor",
+    "slotType": "hands",
+    "acBonus": 3,
+    "value": 250
+  },
+  {
+    "id": "gear_shield_mithril",
+    "name": "Mithril Defender",
+    "tier": 4,
+    "type": "Armor",
+    "slotType": "offHand",
+    "acBonus": 4,
+    "value": 450
+  },
+  {
+    "id": "gear_ring_sapphire",
+    "name": "Sapphire Band",
+    "tier": 4,
+    "type": "Accessory",
+    "slotType": "ring1",
+    "value": 300
+  },
+  {
+    "id": "gear_neck_emerald",
+    "name": "Emerald Talisman",
+    "tier": 4,
+    "type": "Accessory",
+    "slotType": "neck",
+    "value": 350
+  },
+  {
+    "id": "gear_back_shadow",
+    "name": "Shroud of Shadows",
+    "tier": 4,
+    "type": "Accessory",
+    "slotType": "back",
+    "acBonus": 3,
+    "value": 320
+  },
+  {
+    "id": "gear_sword_legendary",
+    "name": "Blade of the Sun God",
+    "tier": 5,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 18,
+    "value": 800
+  },
+  {
+    "id": "gear_staff_archmage",
+    "name": "Staff of the Archmage",
+    "tier": 5,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 3,
+    "damageDice": 14,
+    "value": 850
+  },
+  {
+    "id": "gear_bow_godly",
+    "name": "Yew Bow of the Heavens",
+    "tier": 5,
+    "type": "Weapon",
+    "slotType": "mainHand",
+    "range": 6,
+    "damageDice": 16,
+    "value": 900
+  },
+  {
+    "id": "gear_helm_divine",
+    "name": "Crown of Immortality",
+    "tier": 5,
+    "type": "Armor",
+    "slotType": "head",
+    "acBonus": 5,
+    "value": 700
+  },
+  {
+    "id": "gear_chest_dragon",
+    "name": "Dragonscale Plate",
+    "tier": 5,
+    "type": "Armor",
+    "slotType": "chest",
+    "acBonus": 9,
+    "value": 1200
+  },
+  {
+    "id": "gear_legs_dragon",
+    "name": "Dragonscale Greaves",
+    "tier": 5,
+    "type": "Armor",
+    "slotType": "legs",
+    "acBonus": 6,
+    "value": 900
+  },
+  {
+    "id": "gear_feet_wind",
+    "name": "Boots of the Windwalker",
+    "tier": 5,
+    "type": "Armor",
+    "slotType": "feet",
+    "acBonus": 4,
+    "value": 600
+  },
+  {
+    "id": "gear_hands_titans",
+    "name": "Titan's Grasp Gauntlets",
+    "tier": 5,
+    "type": "Armor",
+    "slotType": "hands",
+    "acBonus": 4,
+    "value": 600
+  },
+  {
+    "id": "gear_shield_aegis",
+    "name": "Aegis of the Gods",
+    "tier": 5,
+    "type": "Armor",
+    "slotType": "offHand",
+    "acBonus": 5,
+    "value": 1000
+  },
+  {
+    "id": "gear_ring_titan",
+    "name": "Ring of Absolute Power",
+    "tier": 5,
+    "type": "Accessory",
+    "slotType": "ring1",
+    "value": 750
+  },
+  {
+    "id": "gear_neck_dragon",
+    "name": "Heart of the Dragon",
+    "tier": 5,
+    "type": "Accessory",
+    "slotType": "neck",
+    "value": 850
+  },
+  {
+    "id": "gear_back_wings",
+    "name": "Cloak of the Phoenix",
+    "tier": 5,
+    "type": "Accessory",
+    "slotType": "back",
+    "acBonus": 4,
+    "value": 800
+  }
+]

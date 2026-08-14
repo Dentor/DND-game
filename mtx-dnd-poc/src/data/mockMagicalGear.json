@@ -1,0 +1,138 @@
+[
+  {
+    "id": "mag_sword_flame",
+    "name": "Flamebrand Longsword",
+    "tier": 2,
+    "type": "Weapon",
+    "rarity": "Magical",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 8,
+    "elementalDamage": { "type": "fire", "dice": 4 },
+    "value": 350
+  },
+  {
+    "id": "mag_dagger_frost",
+    "name": "Frostbite Stiletto",
+    "tier": 2,
+    "type": "Weapon",
+    "rarity": "Magical",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 6,
+    "elementalDamage": { "type": "water", "dice": 4 },
+    "value": 320
+  },
+  {
+    "id": "mag_bow_wind",
+    "name": "Gale-Force Greatbow",
+    "tier": 3,
+    "type": "Weapon",
+    "rarity": "Magical",
+    "slotType": "mainHand",
+    "range": 5,
+    "damageDice": 10,
+    "statBonus": { "dexterity": 1 },
+    "value": 600
+  },
+  {
+    "id": "mag_staff_storm",
+    "name": "Tempest Rod",
+    "tier": 3,
+    "type": "Weapon",
+    "rarity": "Magical",
+    "slotType": "mainHand",
+    "range": 3,
+    "damageDice": 8,
+    "elementalDamage": { "type": "lightning", "dice": 6 },
+    "statBonus": { "intelligence": 2 },
+    "value": 750
+  },
+  {
+    "id": "mag_cloak_windrunner",
+    "name": "Windrunner's Cloak",
+    "tier": 3,
+    "type": "Accessory",
+    "rarity": "Magical",
+    "slotType": "back",
+    "acBonus": 1,
+    "statBonus": { "dexterity": 2 },
+    "value": 500
+  },
+  {
+    "id": "mag_belt_ogre",
+    "name": "Belt of Giant Strength",
+    "tier": 3,
+    "type": "Accessory",
+    "rarity": "Magical",
+    "slotType": "belt",
+    "statBonus": { "strength": 3 },
+    "value": 650
+  },
+  {
+    "id": "mag_head_intellect",
+    "name": "Circlet of the Magi",
+    "tier": 3,
+    "type": "Armor",
+    "rarity": "Magical",
+    "slotType": "head",
+    "acBonus": 1,
+    "statBonus": { "intelligence": 3 },
+    "value": 600
+  },
+  {
+    "id": "mag_boots_speed",
+    "name": "Boots of Striding",
+    "tier": 2,
+    "type": "Armor",
+    "rarity": "Magical",
+    "slotType": "feet",
+    "acBonus": 1,
+    "statBonus": { "dexterity": 2 },
+    "value": 450
+  },
+  {
+    "id": "mag_ring_vampire",
+    "name": "Blood-Drinker Ring",
+    "tier": 4,
+    "type": "Accessory",
+    "rarity": "Artifact",
+    "slotType": "ring1",
+    "lifestealPercent": 15,
+    "value": 1200
+  },
+  {
+    "id": "mag_armor_phoenix",
+    "name": "Cuirass of the Phoenix",
+    "tier": 4,
+    "type": "Armor",
+    "rarity": "Artifact",
+    "slotType": "chest",
+    "acBonus": 7,
+    "statBonus": { "constitution": 2 },
+    "value": 1500
+  },
+  {
+    "id": "mag_hammer_titan",
+    "name": "Titan's Earthshaker Hammer",
+    "tier": 5,
+    "type": "Weapon",
+    "rarity": "Artifact",
+    "slotType": "mainHand",
+    "range": 1,
+    "damageDice": 16,
+    "elementalDamage": { "type": "earth", "dice": 8 },
+    "statBonus": { "strength": 4 },
+    "value": 2500
+  },
+  {
+    "id": "mag_amulet_gods",
+    "name": "Amulet of Divine Grace",
+    "tier": 5,
+    "type": "Accessory",
+    "rarity": "Artifact",
+    "slotType": "neck",
+    "statBonus": { "wisdom": 3, "charisma": 3 },
+    "value": 2000
+  }
+]
