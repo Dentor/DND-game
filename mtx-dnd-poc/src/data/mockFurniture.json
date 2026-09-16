@@ -1,0 +1,159 @@
+[
+  {
+    "id": "floor_wood_01",
+    "name": "Oak Wood Floor",
+    "type": "Floor",
+    "price": 10,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": false,
+    "sprite": "/src/assets/house/floor_wood_01.png",
+    "description": "Standard wooden floorboards."
+  },
+  {
+    "id": "floor_stone_01",
+    "name": "Classic Stone Tile",
+    "type": "Floor",
+    "price": 25,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": false,
+    "sprite": "/src/assets/house/floor_stone_01.png",
+    "description": "Cold, reliable flat stone."
+  },
+  {
+    "id": "floor_rug_royal",
+    "name": "Royal Crimson Rug",
+    "type": "Floor",
+    "price": 100,
+    "spanX": 2,
+    "spanY": 2,
+    "blocksMovement": false,
+    "sprite": "/src/assets/house/floor_rug_royal.png",
+    "description": "A lavish 2x2 carpet fit for a king."
+  },
+  {
+    "id": "floor_rug_moss",
+    "name": "Forest Moss Rug",
+    "type": "Floor",
+    "price": 75,
+    "spanX": 2,
+    "spanY": 2,
+    "blocksMovement": false,
+    "sprite": "/src/assets/house/floor_rug_moss.png",
+    "description": "A thick, woven rug that brings the tranquility of nature indoors."
+  },
+
+  {
+    "id": "wall_stone_01",
+    "name": "Heavy Stone Wall",
+    "type": "Wall",
+    "price": 50,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/wall_stone_01.png",
+    "description": "A sturdy, impassable stone block."
+  },
+  {
+    "id": "wall_wood_01",
+    "name": "Timber Partition",
+    "type": "Wall",
+    "price": 30,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/wall_wood_01.png",
+    "description": "A simple wooden wall to divide rooms."
+  },
+
+  {
+    "id": "furn_chair_wood",
+    "name": "Wooden Stool",
+    "type": "Furniture",
+    "price": 40,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": false,
+    "sprite": "/src/assets/house/furn_chair_wood.png",
+    "description": "A simple seat. You can walk over it."
+  },
+  {
+    "id": "furn_table_oak",
+    "name": "Oak Dining Table",
+    "type": "Furniture",
+    "price": 120,
+    "spanX": 2,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/furn_table_oak.png",
+    "description": "A solid 2x1 table for sorting loot."
+  },
+  {
+    "id": "furn_wardrobe_heavy",
+    "name": "Heavy Wardrobe",
+    "type": "Furniture",
+    "price": 250,
+    "spanX": 2,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/furn_wardrobe_heavy.png",
+    "description": "A massive wooden closet. Completely blocks movement."
+  },
+  {
+    "id": "furn_bookshelf_arcane",
+    "name": "Arcane Bookshelf",
+    "type": "Furniture",
+    "price": 400,
+    "spanX": 2,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/furn_bookshelf_arcane.png",
+    "description": "Overflowing with ancient grimoires."
+  },
+  {
+    "id": "furn_weapon_rack",
+    "name": "Iron Weapon Rack",
+    "type": "Furniture",
+    "price": 200,
+    "spanX": 2,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/furn_weapon_rack.png",
+    "description": "Display your mundane arms proudly."
+  },
+  {
+    "id": "furn_potted_fern",
+    "name": "Potted Fern",
+    "type": "Furniture",
+    "price": 60,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/furn_potted_fern.png",
+    "description": "A touch of green life."
+  },
+  
+  {
+    "id": "trophy_dragon_skull",
+    "name": "Dragon Skull Mount",
+    "type": "Trophy",
+    "price": 1500,
+    "spanX": 1,
+    "spanY": 1,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/trophy_dragon_skull.png",
+    "description": "A massive skull mounted to the floor."
+  },
+  {
+    "id": "trophy_gold_statue",
+    "name": "Hero's Monument",
+    "type": "Trophy",
+    "price": 5000,
+    "spanX": 1,
+    "spanY": 2,
+    "blocksMovement": true,
+    "sprite": "/src/assets/house/trophy_gold_statue.png",
+    "description": "A solid gold 1x2 statue memorializing your victories."
+  }
+]

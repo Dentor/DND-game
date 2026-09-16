@@ -1,5 +1,9 @@
 export const generateMap = (campaignTier) => {
-  const depth = 6 + Math.min(Math.floor(campaignTier / 2), 4); 
+  // SCALING LENGTH: Tier 1 = 6 to 8 depth, Tier 2 = 7 to 10 depth, scaling further per tier
+  const minDepth = 5 + campaignTier;
+  const maxDepth = 6 + (campaignTier * 2);
+  const depth = Math.floor(Math.random() * (maxDepth - minDepth + 1)) + minDepth;
+
   const mapNodes = [];
   const nodeTypes = ['Monster', 'Merchant', 'Camp', 'Trap'];
   const trapStats = ['Strength', 'Dexterity', 'Intelligence'];
